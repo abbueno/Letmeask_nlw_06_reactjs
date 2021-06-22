@@ -1,5 +1,0 @@
-<< Aula 1 >>
-cod: #together
-
-yarn create react-app Letmeask_nlw_06_reactjs --template typescript
-yarn add firebase
