@@ -5,8 +5,13 @@ yarn create react-app Letmeask_nlw_06_reactjs --template typescript
 yarn add firebase
 
 << Aula 2 >>
-#unidade
+cod: #unidade
 
 yarn add node-sass@^5.0.0
 yarn add react-router-dom
 yarn add @types/react-router-dom -D
+
+<< Aula 3 >>
+cod: #embuscadeevolução
+
+<< Aula 4 >>

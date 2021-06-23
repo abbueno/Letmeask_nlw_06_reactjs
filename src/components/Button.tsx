@@ -1,5 +1,7 @@
 import { ButtonHTMLAttributes } from 'react';
 
+import '../styles/Button.scss';
+
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
 export function Button(props: ButtonProps) {
@@ -7,3 +9,4 @@ export function Button(props: ButtonProps) {
     <button className="button" {...props} />
   )
 }
+
