@@ -20,5 +20,9 @@ cod: #legacy
 << Aula 5 >>
 cod: #
 
-yarn add class
+yarn add classnames
 yarn global add firebase-tools
+firebase login
+firebase init
+
+
