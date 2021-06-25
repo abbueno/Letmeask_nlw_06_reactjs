@@ -15,3 +15,10 @@ yarn add @types/react-router-dom -D
 cod: #embuscadeevolução
 
 << Aula 4 >>
+cod: #legacy
+
+<< Aula 5 >>
+cod: #
+
+yarn add class
+yarn global add firebase-tools
