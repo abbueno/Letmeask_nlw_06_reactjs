@@ -18,11 +18,13 @@ cod: #embuscadeevolução
 cod: #legacy
 
 << Aula 5 >>
-cod: #
+cod: # juntos no próximo nivel
 
 yarn add classnames
 yarn global add firebase-tools
 firebase login
 firebase init
+yarn build
+firebase deploy
 
-
+https://letmeask-5d688.web.app/
