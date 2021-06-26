@@ -4,13 +4,12 @@ import { FormEvent, useState } from 'react';
 import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
 import googleIconImg from '../assets/images/google-icon.svg';
+import foguete from '../assets/images/foguete.png';
 
 import { database } from '../services/firebase';
 
 import { Button } from '../components/Button';
 import { useAuth } from '../hooks/useAuth';
-
-import '../styles/auth.scss';
 
 export function Home() {
     const history = useHistory();
@@ -50,12 +49,14 @@ export function Home() {
     return (
         <div id="page-auth">
             <aside>
+                    <div className="foguete">
+                    <img src={foguete} alt="Foguete" className="foguete"></img>
+                    </div>
                 <img src={illustrationImg} alt="Ilustração simbolizando perguntas e respostas" />
                 <strong>Crie salas de Q&amp;A ao-vivo</strong>
                 <p>Tire suas dúvidas da sua audiência em tempo-real</p>
             </aside>
-            <main>
-                
+            <main>                
                 <div className="main-content">
                     <img src={logoImg} alt="Letmeask" />
                     <button onClick={handleCreateRoom} className="create-room">
